@@ -17,7 +17,7 @@ function createGalleryMarkup(items) {
                     </a>`})
         .join('');
 }
-let gallery = new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.gallery a', {
     caption: true,
     captionType: 'attr',
     captionsData: 'alt',
